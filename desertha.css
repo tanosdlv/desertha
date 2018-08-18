@@ -22,12 +22,12 @@ h2 {
   font-size: 2em;
   padding-top: 2em;
   padding-bottom: 2em;
+  height: 939px;
   background: url(tomaperro_web_low.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 100%;
 }
 
 .closing {
