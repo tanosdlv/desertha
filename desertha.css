@@ -1,0 +1,46 @@
+.full-width {
+  margin: 0 calc(0px - (100vw - 100%) / 2);
+  
+/* setting padding left and right here will keep your content from spanning the entire container */
+/* avoid setting padding in shorthand elsewhere to prevent overriding*/
+  padding-left: calc((100vw - 100%) / 2);
+  padding-right: calc((100vw - 100%) / 2);
+}
+
+section {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px solid rgba(0, 0, 0, .1);
+  box-shadow: 0 0 0px rgba(255, 255, 255, .5);
+  margin: 0 auto;
+  padding: 20px;
+  
+  /* adjust the container width here to change the content area width. This works with any unit */
+  width: 60%;
+}
+
+h2 {
+  font-size: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #000;
+  border: 1px solid rgba(255, 255, 255, .2);
+  box-shadow: 0 0 2px #000;
+}
+
+.closing {
+  background-color: rgba(255, 255, 255, .1);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+a {
+  color: rgba(255, 255, 255, .5);
+}
