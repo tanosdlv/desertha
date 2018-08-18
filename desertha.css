@@ -23,8 +23,6 @@ h2 {
   padding-top: 2em;
   padding-bottom: 2em;
   background-image: url("tomaperro_web_low.jpg");
-  border: 1px solid rgba(255, 255, 255, .2);
-  box-shadow: 0 0 2px #000;
 }
 
 .closing {
